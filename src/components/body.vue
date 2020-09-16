@@ -2,21 +2,29 @@
     <div class="body-grid">
         <side-panel/>
         <div id="body-content">
-            <h1 id="body-title">Hey There!</h1>
+            <h2 id="body-title">Hey There!</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi quae quis ipsam eveniet aliquam omnis nobis, temporibus minima blanditiis neque explicabo vitae unde necessitatibus dolore provident earum recusandae esse quisquam.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi quae quis ipsam eveniet aliquam omnis nobis, temporibus minima blanditiis neque explicabo vitae unde necessitatibus dolore provident earum recusandae esse quisquam.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi quae quis ipsam eveniet aliquam omnis nobis, temporibus minima blanditiis neque explicabo vitae unde necessitatibus dolore provident earum recusandae esse quisquam.</p>
         </div>
+        <div></div>
+        <tech-stack/>
+        <div></div>
+        <projects/>
     </div>
 </template>
 
 <script>
 import SidePanel from "../components/side-panel.vue";
+import TechStack from "../components/tech-stack.vue";
+import Projects from "../components/projects.vue";
 
 export default {
     name: "page-body",
     components: {
-      SidePanel
+      SidePanel,
+      TechStack,
+      Projects
     }
 }
 </script>
