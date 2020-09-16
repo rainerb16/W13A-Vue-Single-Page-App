@@ -1,10 +1,8 @@
 <template>
     <div class="footer-grid">
-        <div></div>
         <h3>Email</h3>
-        <h3>Phone</h3>
-        <h3>Jobs</h3>
-        <div></div>
+        <h3>LinkedIn</h3>
+        <h3>GitHub</h3>
     </div>
 </template>
 
@@ -19,6 +17,7 @@ export default {
         display: grid;
         align-items: center;
         justify-items: center;
-        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 1vw;
     }
 </style>
