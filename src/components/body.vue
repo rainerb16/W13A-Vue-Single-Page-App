@@ -10,21 +10,21 @@
         <div></div>
         <tech-stack/>
         <div></div>
-        <projects/>
+        <projects-page/>
     </div>
 </template>
 
 <script>
 import SidePanel from "../components/side-panel.vue";
 import TechStack from "../components/tech-stack.vue";
-import Projects from "../components/projects.vue";
+import ProjectsPage from "../components/projects.vue";
 
 export default {
     name: "page-body",
     components: {
       SidePanel,
       TechStack,
-      Projects
+      ProjectsPage
     }
 }
 </script>
